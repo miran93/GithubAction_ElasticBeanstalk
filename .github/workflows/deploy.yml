@@ -9,7 +9,8 @@ env:
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "main" ]
+  pull_request:
 
 jobs:
   create_eb_version:
